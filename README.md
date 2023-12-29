@@ -40,7 +40,7 @@ with open(fname,'r') as fp:
         words = line.split()
         word_count+=len(words)
     print("Number of words:",word_count)
-
+```
 ### OUTPUT:
 ![image](https://github.com/Goutham2306/Word-count/assets/138971154/9bf95c6d-12bf-4f31-a8c0-76d7424a1cde)
 
