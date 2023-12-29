@@ -30,17 +30,16 @@ End the program.
 
 ## PROGRAM:
 ```
-def wordcount(filename):
-    count=0
-    with open("in.txt","r") as f:
-        for data in f:
-            words=data.split()
-            for word in words:
-                count+=1
-    print("Total number of words:",count)
-filename=input("Enter Filename:")
-wordcount(filename)
-```
+# Program to count the no.of word count
+# Developed by : Goutham.K
+# Register Number : 212223110019
+fname=input("Enter the file name ")
+word_count=0
+with open(fname,'r') as fp:
+    for line in fp:
+        words = line.split()
+        word_count+=len(words)
+    print("Number of words:",word_count)
 
 ### OUTPUT:
 ![image](https://github.com/Goutham2306/Word-count/assets/138971154/9bf95c6d-12bf-4f31-a8c0-76d7424a1cde)
